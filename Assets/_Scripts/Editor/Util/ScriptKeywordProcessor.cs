@@ -33,3 +33,15 @@ namespace _Scripts.Editor.Util {
         }
     }
 }
+
+// /**
+//  * #SCRIPTNAME#.cs
+//  * Created by: #AUTHOR#
+//  * Created on: #CREATIONDATE#
+//  */
+//
+// using UnityEngine;
+//
+// public class #SCRIPTNAME# : MonoBehaviour {
+//
+// }
