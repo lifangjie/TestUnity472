@@ -55,8 +55,8 @@ MonoBehaviour:
   - QTools.QHierarchy_TagAndLayerSizeValuePercent
   - QTools.QHierarchy_TagAndLayerLabelAlpha
   settingFloatValues:
-  - 0.25
-  - 0.35
+  - .25
+  - .349999994
   settingIntNames:
   - QTools.QHierarchy_TagAndLayerSizeShowType
   - QTools.QHierarchy_TagAndLayerType
@@ -128,4 +128,4 @@ MonoBehaviour:
   - QTools.QHierarchy_AdditionalShowHiddenQHierarchyObjectList
   - QTools.QHierarchy_AdditionalHideIconsIfNotFit
   - QTools.QHierarchy_AdditionalShowModifierWarning
-  settingBoolValues: 01010001010101010101010000010001000001000100010101010000000001010101000101010101010100010000000001000000010101
+  settingBoolValues: 01010001010101010101010000000001000001000100010101010000000001010101000101010101010100010000000001000000010101
