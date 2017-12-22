@@ -5,10 +5,19 @@
  */
 
 using System.Reflection;
+using UnityEditor;
 using UnityEngine;
 
 namespace _Scripts.Editor.Util {
     public static class CommonUtil {
+        [MenuItem("Tools/Bake Lightmap Size 2048")]
+        public static void ChangeLightmapSize() {
+            LightmapEditorSettings.maxAtlasWidth = 2048;
+            LightmapEditorSettings.maxAtlasHeight = 2048;
+            Lightmapping.Clear();
+            Lightmapping.Bake();
+        }
+
         public static void ClearConsole() {
             var assembly = Assembly.GetAssembly(typeof(UnityEditor.ActiveEditorTracker));
             var type = assembly.GetType("UnityEditorInternal.LogEntries");

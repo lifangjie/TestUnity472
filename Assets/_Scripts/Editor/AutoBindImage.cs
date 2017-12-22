@@ -17,13 +17,13 @@ namespace _Scripts.Editor {
                     if (image == null) {
                         continue;
                     }
+//
+//                    var bindSprite = image.gameObject.GetComponent<BindSprite>();
+//                    if (bindSprite == null) {
+//                        bindSprite = image.gameObject.AddComponent<BindSprite>();
+//                    }
 
-                    var bindSprite = image.gameObject.GetComponent<BindSprite>();
-                    if (bindSprite == null) {
-                        bindSprite = image.gameObject.AddComponent<BindSprite>();
-                    }
-
-                    bindSprite.SpriteName = image.sprite.name;
+                    //bindSprite.SpriteName = image.sprite.name;
                 }
             }
 

@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: f1a784dbe05d8d34db11f44dc7fe74bb, type: 3}
+  m_Name: RealtimeMaterial
+  m_Shader: {fileID: 4800000, guid: 231fa307f24ea5746ad698e50bccd4bd, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,26 +17,33 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 827d5decb9030e04d9d7206a971b21f1, type: 3}
+          m_Texture: {fileID: 2800000, guid: 0d75369786e00d94ab6f40c6d8fa4507, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: 6404d0688d7164645a31604d3c4bfaab, type: 3}
+          m_Texture: {fileID: 2800000, guid: d6830a986cb495a41a925456d52bc6cc, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Bump
+          name: _Diffuse
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 0d75369786e00d94ab6f40c6d8fa4507, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Cubemap
+          name: _NormalWithSpecular
+        second:
+          m_Texture: {fileID: 2800000, guid: d6830a986cb495a41a925456d52bc6cc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -44,20 +51,8 @@ Material:
     m_Floats:
       data:
         first:
-          name: _BumpScale
-        second: -.800000012
-      data:
-        first:
-          name: _Gloss
-        second: 50
-      data:
-        first:
-          name: _Specular
-        second: 500
-      data:
-        first:
-          name: _ReflAmount
-        second: .5
+          name: _Shininess
+        second: .078125
     m_Colors:
       data:
         first:
@@ -65,5 +60,9 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _Specular
-        second: {r: .501960814, g: .501960814, b: .501960814, a: 1}
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: Light
+        second: {r: 7.36000013, g: -10.75, b: 108.410004, a: .959999979}

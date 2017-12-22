@@ -10,7 +10,7 @@ using UnityEngine.UI;
 namespace _Scripts {
     [RequireComponent(typeof(Image))]
     public class BindSprite : MonoBehaviour {
-        public string SpriteName;
+        public Sprite Sprite;
 
         private void Awake() {
             
