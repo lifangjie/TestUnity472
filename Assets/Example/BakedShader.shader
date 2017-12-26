@@ -83,18 +83,17 @@
 				fixed3 halfDir = normalize(tangentLightDir + tangentViewDir);
 				
 				fixed3 specular = _LightColor0.rgb * specularStrength * pow(max(0, dot(tangentNormal, halfDir)), 128);
-				c.rgb += specular * atten;
 
 				fixed4 lmtex = tex2D(unity_Lightmap, i.lmap.xy);
 				fixed3 lm = DecodeLightmap (lmtex);
 				#ifdef SHADOWS_SCREEN
 				#if defined(UNITY_NO_RGBM)
-				c.rgb += albedo * min(lm, atten*2);
+				c.rgb += (albedo + specular) * min(lm, atten*2);
 				#else
-				c.rgb += albedo * max(min(lm,(atten*2)*lmtex.rgb), lm*atten);
+				c.rgb += (albedo + specular) * max(min(lm,(atten*2)*lmtex.rgb), lm*atten);
 				#endif
 				#else // SHADOWS_SCREEN
-				c.rgb += albedo * lm;
+				c.rgb += (albedo + specular) * lm;
 				#endif // SHADOWS_SCREEN
 				
 				return fixed4(c.rgb, 1);
