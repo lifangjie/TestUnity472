@@ -12,6 +12,9 @@ namespace Example {
         private float _speed;
 
         private void Awake() {
+            if (Screen.currentResolution.width > 1280) {
+                Screen.SetResolution(1280, 720, true);
+            }
             _transform = transform;
             _speed = Random.value * 5;
             Material material = new Material(GetComponent<Renderer>().sharedMaterial);
