@@ -18,8 +18,8 @@ namespace _Scripts.Editor.UI {
         public static void OpenAtlasMaker() {
             GetWindow<SpriteAtlasMaker>(false, "Atlas Maker", true).Show();
         }
-        
-        private HashSet<SpriteAtlas> _container = new HashSet<SpriteAtlas>();
+
+        private readonly HashSet<SpriteAtlas> _container = new HashSet<SpriteAtlas>();
 
         private bool _update = false;
 
@@ -27,15 +27,17 @@ namespace _Scripts.Editor.UI {
 
         private void OnGUI() {
             // choose or new a atlas
-            ComponentSelector.Draw("Atlas", _spriteAtlas, delegate(Object o) {
-                if (_spriteAtlas != o) {
-                    _spriteAtlas = o as SpriteAtlas;
-                }
-            }, true, GUILayout.MinWidth(80f));
-            
+//            ComponentSelector.Draw("Atlas", _spriteAtlas, delegate(Object o) {
+//                if (_spriteAtlas != o) {
+//                    _spriteAtlas = o as SpriteAtlas;
+//                }
+//            }, true, GUILayout.MinWidth(80f));
+
             EditorGUILayout.BeginHorizontal();
             {
-                EditorGUILayout.ObjectField(_spriteAtlas, typeof(SpriteAtlas), false, GUILayout.ExpandWidth(true));
+                _spriteAtlas =
+                    EditorGUILayout.ObjectField(_spriteAtlas, typeof(SpriteAtlas), false, GUILayout.ExpandWidth(true))
+                        as SpriteAtlas;
                 if (GUILayout.Button("New")) {
                     EditorGUILayout.ObjectField("test", _spriteAtlas, typeof(SpriteAtlas), true,
                         GUILayout.MinWidth(80));
@@ -49,17 +51,24 @@ namespace _Scripts.Editor.UI {
                 }
             }
             EditorGUILayout.EndHorizontal();
-            
-            
-            
+
+
             // padding size, default 8
 
-            HashSet<Texture> textures = GetSelectedTextures();
-            if (GUILayout.Button("Pack")) {
-                for (int i = 0; i < textures.Count; i++) {
+            HashSet<Texture2D> textures = GetSelectedTextures();
+            if (GUILayout.Button("Pack") && _spriteAtlas != null) {
+                _spriteAtlas.SpriteDatas = new SpriteData[textures.Count];
+                int index = 0;
+                foreach (var texture in textures) {
+                    SpriteData spriteData = new SpriteData() {
+                        Rect = new Rect(0, 0, texture.width, texture.height),
+                        Pivot = Vector2.zero
+                    };
+                    _spriteAtlas.SpriteDatas[index++] = spriteData;
                     // update sprites data
                     // pack texture
                 }
+                AssetDatabase.SaveAssets();
             }
 
             if (textures.Count > 0) {
@@ -86,20 +95,17 @@ namespace _Scripts.Editor.UI {
                 }
 
                 _container.Add(spriteAtlas);
-
-
-
             }
         }
 
-        HashSet<Texture> GetSelectedTextures() {
-            HashSet<Texture> textures = new HashSet<Texture>();
+        HashSet<Texture2D> GetSelectedTextures() {
+            HashSet<Texture2D> textures = new HashSet<Texture2D>();
 
             if (Selection.objects != null && Selection.objects.Length > 0) {
                 Object[] objects = EditorUtility.CollectDependencies(Selection.objects);
 
                 foreach (Object o in objects) {
-                    Texture tex = o as Texture;
+                    Texture2D tex = o as Texture2D;
                     if (tex != null) {
                         textures.Add(tex);
                     }

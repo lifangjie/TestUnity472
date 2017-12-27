@@ -1,15 +1,17 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace _Scripts.UI {
+    [Serializable]
     public class SpriteAtlas : ScriptableObject {
-        private TextAsset TextureBytes;
-        private SpriteData[] SpriteDatas;
-
+        public TextAsset TextureBytes;
+        public SpriteData[] SpriteDatas;
     }
 
-    struct SpriteData {
-        private Rect Rect;
-        private Vector2 Pivot;
+    [Serializable]
+    public struct SpriteData {
+        public Rect Rect;
+        public Vector2 Pivot;
 
     }
 }
