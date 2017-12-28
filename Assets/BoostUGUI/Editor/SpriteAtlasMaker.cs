@@ -6,13 +6,11 @@
 
 using System;
 using System.Collections.Generic;
-using System.IO;
 using UnityEditor;
 using UnityEngine;
-using _Scripts.UI;
 using Object = UnityEngine.Object;
 
-namespace _Scripts.Editor.UI {
+namespace BoostUGUI.Editor {
     public class SpriteAtlasMaker : EditorWindow {
         [MenuItem("Assets/UGUI/Sprite Atlas Maker", false, 0)]
         public static void OpenAtlasMaker() {
@@ -23,30 +21,21 @@ namespace _Scripts.Editor.UI {
 
         private bool _update = false;
 
-        private SpriteAtlas _spriteAtlas;
+        private static SpriteAtlas _targetAtlas;
 
         private void OnGUI() {
-            // choose or new a atlas
-//            ComponentSelector.Draw("Atlas", _spriteAtlas, delegate(Object o) {
-//                if (_spriteAtlas != o) {
-//                    _spriteAtlas = o as SpriteAtlas;
-//                }
-//            }, true, GUILayout.MinWidth(80f));
-
             EditorGUILayout.BeginHorizontal();
             {
-                _spriteAtlas =
-                    EditorGUILayout.ObjectField(_spriteAtlas, typeof(SpriteAtlas), false, GUILayout.ExpandWidth(true))
+                _targetAtlas =
+                    EditorGUILayout.ObjectField(_targetAtlas, typeof(SpriteAtlas), false, GUILayout.ExpandWidth(true))
                         as SpriteAtlas;
-                if (GUILayout.Button("New")) {
-                    EditorGUILayout.ObjectField("test", _spriteAtlas, typeof(SpriteAtlas), true,
-                        GUILayout.MinWidth(80));
-                    SpriteAtlas spriteAtlas = CreateInstance<SpriteAtlas>();
+                if (GUILayout.Button("New", GUILayout.MaxWidth(100))) {
+                    _targetAtlas = CreateInstance<SpriteAtlas>();
                     string path = EditorUtility.SaveFilePanelInProject("Save As",
                         "New Atlas.asset", "asset", "Save atlas as...", Application.dataPath);
 
                     if (!string.IsNullOrEmpty(path)) {
-                        AssetDatabase.CreateAsset(spriteAtlas, path);
+                        AssetDatabase.CreateAsset(_targetAtlas, path);
                     }
                 }
             }
@@ -56,18 +45,24 @@ namespace _Scripts.Editor.UI {
             // padding size, default 8
 
             HashSet<Texture2D> textures = GetSelectedTextures();
-            if (GUILayout.Button("Pack") && _spriteAtlas != null) {
-                _spriteAtlas.SpriteDatas = new SpriteData[textures.Count];
+            if (GUILayout.Button("Pack") && _targetAtlas != null) {
+                _targetAtlas.SpriteDatas = new SpriteData[textures.Count];
                 int index = 0;
                 foreach (var texture in textures) {
                     SpriteData spriteData = new SpriteData() {
                         Rect = new Rect(0, 0, texture.width, texture.height),
                         Pivot = Vector2.zero
                     };
-                    _spriteAtlas.SpriteDatas[index++] = spriteData;
+                    _targetAtlas.SpriteDatas[index++] = spriteData;
                     // update sprites data
-                    // pack texture
                 }
+
+                // pack texture
+                Texture2D texture2D = new Texture2D(32, 32);
+                texture2D.Apply();
+                var outputPath = AssetDatabase.GetAssetPath(_targetAtlas).Split('.')[0] + ".bytes";
+                WebPEncoder.Encode(texture2D, outputPath);
+                _targetAtlas.TextureBytes = AssetDatabase.LoadAssetAtPath(outputPath, typeof(TextAsset)) as TextAsset;
                 AssetDatabase.SaveAssets();
             }
 

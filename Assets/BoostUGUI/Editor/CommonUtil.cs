@@ -8,7 +8,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace _Scripts.Editor.Util {
+namespace BoostUGUI.Editor {
     public static class CommonUtil {
         [MenuItem("Tools/Bake Lightmap Size 2048")]
         public static void ChangeLightmapSize() {

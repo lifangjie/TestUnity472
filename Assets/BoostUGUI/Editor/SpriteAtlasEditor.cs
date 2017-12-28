@@ -1,7 +1,6 @@
 ﻿using UnityEditor;
-using _Scripts.UI;
 
-namespace _Scripts.Editor.UI {
+namespace BoostUGUI.Editor {
     [CustomEditor(typeof(SpriteAtlas))]
     public class SpriteAtlasEditor : UnityEditor.Editor {
         private SerializedProperty _textureBytes;

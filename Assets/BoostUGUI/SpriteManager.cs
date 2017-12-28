@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _Scripts.UI {
+namespace BoostUGUI {
     public class SpriteManager : MonoBehaviour{
         
     }

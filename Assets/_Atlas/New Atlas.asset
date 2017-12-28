@@ -11,3 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f89d54957a864a688174a919f5acf99a, type: 3}
   m_Name: New Atlas
   m_EditorClassIdentifier: 
+  TextureBytes: {fileID: 0}
+  SpriteDatas: []
