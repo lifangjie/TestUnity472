@@ -1,16 +1,23 @@
-﻿using System.Reflection;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace BoostUGUI {
+    [ExecuteInEditMode]
     public class TestImage : Image {
-        public SpriteAtlas SpriteAtlas;
         public string SpriteName;
 
-        public override void OnAfterDeserialize() {
-            var field = GetType().GetField("m_Sprite", BindingFlags.NonPublic | BindingFlags.Instance);
-            Sprite temp = SpriteAtlas.GetSprite(SpriteName);
-            field.SetValue(this, temp);
+        protected override void Awake() {
+            sprite = SpriteManager.GetSprite(SpriteName);
+        }
+
+//        protected override void OnValidate() {
+//            sprite = SpriteManager.GetSprite(SpriteName);
+//            base.OnValidate();
+//        }
+
+        private void Update() {
+            if (Time.frameCount > 500) {
+            }
         }
     }
 }

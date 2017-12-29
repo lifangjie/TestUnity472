@@ -1,34 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
 using UnityEngine;
 using _Scripts.Util;
 
 namespace BoostUGUI {
     [Serializable]
-    public class SpriteAtlas : ScriptableObject, ISerializationCallbackReceiver {
+    public class SpriteAtlas : ScriptableObject{
         public TextAsset TextureBytes;
         public SpriteData[] SpriteDatas;
 
-        [NonSerialized] private Texture2D _texture2D;
-        [NonSerialized] private Dictionary<string, Sprite> _sprites;
-
-        public void OnBeforeSerialize() {
-        }
-        public void OnAfterDeserialize() {
-            _texture2D = WebPDecoder.DecodeFromBytes(TextureBytes.bytes);
-            _sprites = new Dictionary<string, Sprite>();
+        private void OnEnable() {
+            Debug.Log("on enable");
+            Texture2D texture2D = WebPDecoder.DecodeFromBytes(TextureBytes.bytes);
+            texture2D.hideFlags = HideFlags.HideAndDontSave;
+            SpriteManager.AddTexture(texture2D);
 
             for (int i = 0; i < SpriteDatas.Length; i++) {
-                Sprite sprite = Sprite.Create(_texture2D, SpriteDatas[i].Rect, SpriteDatas[i].Pivot);
+                Sprite sprite = Sprite.Create(texture2D, SpriteDatas[i].Rect, SpriteDatas[i].Pivot);
+                sprite.hideFlags = HideFlags.HideAndDontSave;
                 sprite.name = SpriteDatas[i].Name;
-                _sprites.Add(sprite.name, sprite);
+                SpriteManager.AddSprite(sprite);
             }
-
-            Debug.Log("instance" + GetInstanceID());
-        }
-
-        public Sprite GetSprite(string spriteName) {
-            return _sprites[spriteName];
         }
     }
 
