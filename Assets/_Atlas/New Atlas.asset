@@ -11,5 +11,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f89d54957a864a688174a919f5acf99a, type: 3}
   m_Name: New Atlas
   m_EditorClassIdentifier: 
-  TextureBytes: {fileID: 0}
-  SpriteDatas: []
+  TextureBytes: {fileID: 4900000, guid: 5ff504919c66b7d429412e43cf75409d, type: 3}
+  SpriteDatas:
+  - Name: test1
+    Rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 64
+    Pivot: {x: 0, y: 0}
+  - Name: test2
+    Rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 64
+      height: 64
+    Pivot: {x: 0, y: 0}

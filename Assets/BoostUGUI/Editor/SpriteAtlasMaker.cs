@@ -50,6 +50,7 @@ namespace BoostUGUI.Editor {
                 int index = 0;
                 foreach (var texture in textures) {
                     SpriteData spriteData = new SpriteData() {
+                        Name = "test",
                         Rect = new Rect(0, 0, texture.width, texture.height),
                         Pivot = Vector2.zero
                     };

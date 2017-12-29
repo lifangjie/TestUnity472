@@ -1,4 +1,5 @@
 ﻿using UnityEditor;
+using UnityEngine;
 
 namespace BoostUGUI.Editor {
     [CustomEditor(typeof(TestImage))]
@@ -14,6 +15,8 @@ namespace BoostUGUI.Editor {
         public override void OnInspectorGUI() {
             EditorGUILayout.PropertyField(_spriteAtlas);
             EditorGUILayout.PropertyField(_spriteName);
+            
+            serializedObject.ApplyModifiedProperties();
         }
     }
 }

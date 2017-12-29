@@ -16,6 +16,7 @@ namespace BoostUGUI.Editor {
             EditorGUILayout.PropertyField(_spriteDatas, true);
 
             serializedObject.ApplyModifiedProperties();
+            EditorUtility.SetDirty(target);
         }
     }
 }
