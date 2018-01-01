@@ -2,7 +2,6 @@
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
-using BoostUGUI.Editor;
 using UnityEditor;
 using UnityEngine;
 using _Scripts.Editor.Util;

@@ -8,7 +8,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace BoostUGUI.Editor {
+namespace _Scripts.Editor.Util {
     public static class WebPEncoder {
         public static void Encode(Texture2D texture2D, string outputPath, int quality = 80) {
             CommonUtil.ClearConsole();

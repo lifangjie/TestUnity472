@@ -1,4 +1,4 @@
-﻿/**
+/**
  * CommonUtil.cs
  * Created by: lfj20
  * Created on: 2017/12/21
@@ -8,7 +8,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace BoostUGUI.Editor {
+namespace _Scripts.Editor.Util {
     public static class CommonUtil {
         [MenuItem("Tools/Bake Lightmap Size 2048")]
         public static void ChangeLightmapSize() {
@@ -19,7 +19,7 @@ namespace BoostUGUI.Editor {
         }
 
         public static void ClearConsole() {
-            var assembly = Assembly.GetAssembly(typeof(UnityEditor.ActiveEditorTracker));
+            var assembly = Assembly.GetAssembly(typeof(ActiveEditorTracker));
             var type = assembly.GetType("UnityEditorInternal.LogEntries");
             var method = type.GetMethod("Clear");
             if (method != null) method.Invoke(new object(), null);

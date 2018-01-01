@@ -4,7 +4,6 @@
  * Created on: 2017/12/21
  */
 
-using BoostUGUI.Editor;
 using UnityEditor;
 using UnityEngine;
 
