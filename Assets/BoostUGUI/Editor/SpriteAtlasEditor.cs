@@ -12,6 +12,7 @@ namespace BoostUGUI.Editor {
         }
 
         public override void OnInspectorGUI() {
+            serializedObject.Update();
             EditorGUILayout.PropertyField(_textureBytes);
             EditorGUILayout.PropertyField(_spriteDatas, true);
 

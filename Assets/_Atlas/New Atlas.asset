@@ -11,21 +11,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f89d54957a864a688174a919f5acf99a, type: 3}
   m_Name: New Atlas
   m_EditorClassIdentifier: 
-  TextureBytes: {fileID: 4900000, guid: 5ff504919c66b7d429412e43cf75409d, type: 3}
+  TextureBytes: {fileID: 4900000, guid: 0f60a8ae530a7084d9bc31d73b2b7f26, type: 3}
   SpriteDatas:
-  - Name: test1
+  - Name: BEACD
+    Path: Assets/_Atlas/Basement/BEACD.png
+    Rect:
+      serializedVersion: 2
+      x: 1552
+      y: 0
+      width: 128
+      height: 128
+    Pivot: {x: 0, y: 0}
+  - Name: bombPanel
+    Path: Assets/_Atlas/Basement/bombPanel.png
+    Rect:
+      serializedVersion: 2
+      x: 1032
+      y: 0
+      width: 512
+      height: 512
+    Pivot: {x: 0, y: 0}
+  - Name: background
+    Path: Assets/_Atlas/Basement/background.png
     Rect:
       serializedVersion: 2
       x: 0
       y: 0
+      width: 1024
+      height: 512
+    Pivot: {x: 0, y: 0}
+  - Name: bloodstain
+    Path: Assets/_Atlas/Basement/bloodstain.png
+    Rect:
+      serializedVersion: 2
+      x: 1552
+      y: 136
       width: 64
       height: 64
     Pivot: {x: 0, y: 0}
-  - Name: test2
+  - Name: BEACEDlight
+    Path: Assets/_Atlas/Basement/BEACEDlight.png
     Rect:
       serializedVersion: 2
-      x: 64
-      y: 64
+      x: 1952
+      y: 0
       width: 64
+      height: 128
+    Pivot: {x: 0, y: 0}
+  - Name: barrettM82
+    Path: Assets/_Atlas/Basement/barrettM82.png
+    Rect:
+      serializedVersion: 2
+      x: 1688
+      y: 0
+      width: 256
       height: 64
     Pivot: {x: 0, y: 0}

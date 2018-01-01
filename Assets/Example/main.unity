@@ -324,7 +324,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 216591227}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -108.140015, y: 0}
@@ -351,7 +351,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
+  SpriteAtlas: {fileID: 0}
   SpriteName: test1
 --- !u!222 &77760947
 CanvasRenderer:
@@ -546,7 +546,6 @@ RectTransform:
   - {fileID: 897400508}
   - {fileID: 1587132934}
   - {fileID: 1104134431}
-  - {fileID: 772495790}
   - {fileID: 624913944}
   - {fileID: 526273333}
   - {fileID: 77760945}
@@ -1241,7 +1240,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 216591227}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -108.140015, y: 0}
@@ -1268,7 +1267,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
+  SpriteAtlas: {fileID: 0}
   SpriteName: test1
 --- !u!222 &526273335
 CanvasRenderer:
@@ -1754,7 +1753,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 216591227}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -108.140015, y: 0}
@@ -1781,7 +1780,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
+  SpriteAtlas: {fileID: 0}
   SpriteName: test1
 --- !u!222 &624913946
 CanvasRenderer:
@@ -2066,11 +2065,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 216591227}
-  m_RootOrder: 9
+  m_Father: {fileID: 1104134431}
+  m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -108.140015, y: -93.9000015}
+  m_AnchoredPosition: {x: 71.1599731, y: -93.9000015}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &772495791
@@ -2094,7 +2093,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
+  SpriteAtlas: {fileID: 0}
   SpriteName: test2
 --- !u!222 &772495792
 CanvasRenderer:
@@ -2284,7 +2283,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
+  SpriteAtlas: {fileID: 0}
   SpriteName: test1
 --- !u!222 &858376929
 CanvasRenderer:
@@ -2340,7 +2339,7 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 23.8600006, y: 0}
+  m_AnchoredPosition: {x: 245.100006, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &897400509
@@ -2365,7 +2364,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
-  SpriteName: test2
+  SpriteName: barrettM82
 --- !u!222 &897400510
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2622,7 +2621,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -108.140015, y: 0}
+  m_AnchoredPosition: {x: -107.690002, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1037142013
@@ -2834,7 +2833,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 772495790}
   m_Father: {fileID: 216591227}
   m_RootOrder: 8
   m_AnchorMin: {x: .5, y: .5}
@@ -2863,7 +2863,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
+  SpriteAtlas: {fileID: 0}
   SpriteName: test1
 --- !u!222 &1104134433
 CanvasRenderer:
@@ -3145,7 +3145,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
+  SpriteAtlas: {fileID: 0}
   SpriteName: test1
 --- !u!222 &1239248390
 CanvasRenderer:
@@ -3273,7 +3273,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
-  SpriteName: test1
+  SpriteName: barrettM82
 --- !u!222 &1387779898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3291,10 +3291,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 216591227}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -108.140015, y: 0}
+  m_AnchoredPosition: {x: 447, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!1 &1447954533
@@ -3655,7 +3655,7 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -108.140015, y: 0}
+  m_AnchoredPosition: {x: -117.800003, y: 158.309998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1587132935
@@ -3680,7 +3680,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
-  SpriteName: test1
+  SpriteName: barrettM82
 --- !u!222 &1587132936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4666,7 +4666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1859525298
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4681,7 +4681,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 181.139999}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1859525300
@@ -4697,7 +4697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Sprite: {fileID: 21300000, guid: d2b1da0a4a9b2244baa106a5a129954d, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5163,7 +5163,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  SpriteAtlas: {fileID: 11400000, guid: 4e07cb1d58d3c9e49bd875d035a8f28c, type: 2}
+  SpriteAtlas: {fileID: 0}
   SpriteName: test2
 --- !u!222 &1998554132
 CanvasRenderer:
