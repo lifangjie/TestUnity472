@@ -1011,14 +1011,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 100
-  mHeight: 100
+  mWidth: 158
+  mHeight: 204
   mDepth: 0
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: .774509788
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -1032,8 +1032,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11465754, guid: 55f40e1915383fd4bab0b6bdbde16f30, type: 2}
-  mSpriteName: bloodstain
+  mAtlas: {fileID: 11408474, guid: 073f0a645ee67d14593a205fd4cbc0ec, type: 2}
+  mSpriteName: glassOpenInScene
   mFillCenter: 1
 --- !u!4 &484949925
 Transform:
