@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace _Scripts.Util {
     [ExecuteInEditMode]
-    public class WebpMaterial : MonoBehaviour {
+    public class NguiWebpMaterial : MonoBehaviour {
         public Material Material;
         public TextAsset WebpBytes;
         public bool Enable;
@@ -17,10 +17,6 @@ namespace _Scripts.Util {
             if (!Enable || Material == null || WebpBytes == null) {
                 return;
             }
-
-            if (SystemInfo.maxTextureSize < 2048) {
-            }
-
 
             Material.mainTexture = WebPDecoder.DecodeFromBytes(WebpBytes.bytes);
         }

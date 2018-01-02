@@ -1,7 +1,104 @@
 fileFormatVersion: 2
 guid: d2b1da0a4a9b2244baa106a5a129954d
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Kitchen_0
+    21300002: Kitchen_1
+    21300004: Kitchen_2
+    21300006: Kitchen_3
+    21300008: Kitchen_4
+    21300010: Kitchen_5
+    21300012: Kitchen_6
+    21300014: Kitchen_7
+    21300016: Kitchen_8
+    21300018: Kitchen_9
+    21300020: Kitchen_10
+    21300022: Kitchen_11
+    21300024: Kitchen_12
+    21300026: Kitchen_13
+    21300028: Kitchen_14
+    21300030: Kitchen_15
+    21300032: Kitchen_16
+    21300034: Kitchen_17
+    21300036: Kitchen_18
+    21300038: Kitchen_19
+    21300040: Kitchen_20
+    21300042: Kitchen_21
+    21300044: Kitchen_22
+    21300046: Kitchen_23
+    21300048: Kitchen_24
+    21300050: Kitchen_25
+    21300052: Kitchen_26
+    21300054: Kitchen_27
+    21300056: Kitchen_28
+    21300058: Kitchen_29
+    21300060: Kitchen_30
+    21300062: Kitchen_31
+    21300064: Kitchen_32
+    21300066: Kitchen_33
+    21300068: Kitchen_34
+    21300070: Kitchen_35
+    21300072: Kitchen_36
+    21300074: Kitchen_37
+    21300076: Kitchen_38
+    21300078: Kitchen_39
+    21300080: Kitchen_40
+    21300082: Kitchen_41
+    21300084: Kitchen_42
+    21300086: Kitchen_43
+    21300088: Kitchen_44
+    21300090: Kitchen_45
+    21300092: Kitchen_46
+    21300094: Kitchen_47
+    21300096: Kitchen_48
+    21300098: Kitchen_49
+    21300100: Kitchen_50
+    21300102: Kitchen_51
+    21300104: Kitchen_52
+    21300106: Kitchen_53
+    21300108: Kitchen_54
+    21300110: Kitchen_55
+    21300112: Kitchen_56
+    21300114: Kitchen_57
+    21300116: Kitchen_58
+    21300118: Kitchen_59
+    21300120: Kitchen_60
+    21300122: Kitchen_61
+    21300124: Kitchen_62
+    21300126: Kitchen_63
+    21300128: Kitchen_64
+    21300130: Kitchen_65
+    21300132: Kitchen_66
+    21300134: Kitchen_67
+    21300136: Kitchen_68
+    21300138: Kitchen_69
+    21300140: Kitchen_70
+    21300142: Kitchen_71
+    21300144: Kitchen_72
+    21300146: Kitchen_73
+    21300148: Kitchen_74
+    21300150: Kitchen_75
+    21300152: Kitchen_76
+    21300154: Kitchen_77
+    21300156: Kitchen_78
+    21300158: Kitchen_79
+    21300160: Kitchen_80
+    21300162: Kitchen_81
+    21300164: Kitchen_82
+    21300166: Kitchen_83
+    21300168: Kitchen_84
+    21300170: Kitchen_85
+    21300172: Kitchen_86
+    21300174: Kitchen_87
+    21300176: Kitchen_88
+    21300178: Kitchen_89
+    21300180: Kitchen_90
+    21300182: Kitchen_91
+    21300184: Kitchen_92
+    21300186: Kitchen_93
+    21300188: Kitchen_94
+    21300190: Kitchen_95
+    21300192: Kitchen_96
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -22,7 +119,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 32
+  maxTextureSize: 2048
   textureSettings:
     filterMode: 0
     aniso: 0
@@ -31,7 +128,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 0
   spriteMeshType: 0
   alignment: 0
@@ -42,6 +139,976 @@ TextureImporter:
   textureType: 5
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Kitchen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2009
+        width: 131
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2012
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2015
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 2012
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2012
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_5
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1965
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1989
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_7
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1989
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_8
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1962
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_9
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1998
+        width: 76
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_10
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1949
+        width: 144
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1731
+        width: 337
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1985
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_13
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1987
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_14
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1908
+        width: 132
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_15
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1902
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_16
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1854
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_17
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1768
+        width: 370
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_18
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1866
+        width: 69
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_19
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1866
+        width: 177
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_20
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1928
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_21
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1748
+        width: 146
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_22
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1845
+        width: 84
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_23
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1550
+        width: 17
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_24
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1550
+        width: 17
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_25
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1871
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_26
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1730
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_27
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1773
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_28
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1741
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_29
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1746
+        width: 151
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_30
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1815
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_31
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1764
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1379
+        width: 339
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_33
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1576
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_34
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1377
+        width: 243
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_35
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1556
+        width: 146
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_36
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1688
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_37
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1557
+        width: 226
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_38
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1618
+        width: 17
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_39
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1618
+        width: 124
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_40
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1688
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_41
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1684
+        width: 89
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_42
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1551
+        width: 36
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_43
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1551
+        width: 17
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_44
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1617
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_45
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1620
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_46
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1619
+        width: 93
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_47
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1617
+        width: 85
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_48
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1554
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_49
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1482
+        width: 154
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_50
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1542
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_51
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1554
+        width: 89
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_52
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1557
+        width: 87
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_53
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1550
+        width: 99
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_54
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1551
+        width: 104
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_55
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1554
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_56
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1376
+        width: 120
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_57
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1411
+        width: 151
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_58
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1376
+        width: 268
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_59
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1481
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_60
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1458
+        width: 97
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_61
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1473
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_62
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1456
+        width: 105
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_63
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1461
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_64
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1461
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_65
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1385
+        width: 179
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_66
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1381
+        width: 131
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_67
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1386
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_68
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1380
+        width: 112
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_69
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1383
+        width: 85
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_70
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1378
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 480
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_72
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 688
+        width: 480
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_73
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 688
+        width: 480
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_74
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1313
+        width: 104
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_75
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1313
+        width: 101
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_76
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1312
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_77
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1143
+        width: 238
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_78
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1143
+        width: 324
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_79
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 983
+        width: 349
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_80
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 987
+        width: 146
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_81
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 1085
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_82
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 986
+        width: 30
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_83
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 688
+        width: 241
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_84
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 688
+        width: 230
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_85
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 934
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_86
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 851
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_87
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 760
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_88
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 689
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 960
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_90
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 480
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_91
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 0
+        width: 480
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_92
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 617
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_93
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 504
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_94
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 418
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_95
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 260
+        width: 85
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kitchen_96
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 72
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
